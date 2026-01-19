@@ -1,0 +1,31 @@
+# --- Binaries ---
+# Ignore the binaries created by 'make'
+blueowl-ble
+blueowl-ble-pi
+
+# Ignore standard executable extensions (Windows/Mac)
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Generated Data ---
+# Ignore the mock video storage folder
+test_recordings/
+
+# --- Go Specific ---
+# Test binaries and profiles
+*.test
+*.out
+*.prof
+vendor/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
